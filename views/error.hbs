@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <h3>Chat bot</h3>
+        {{#if data}}
+            {{data}}
+        {{/if}}
+        <form method="POST" action="/"> 
+            <input type="text" name="entry">
+            <button type="button">chat</button>
+        </form>
+    </body>
+</html>
